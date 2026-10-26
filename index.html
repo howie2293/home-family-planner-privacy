@@ -13,12 +13,14 @@
 </head>
 <body>
 <h1>Share the Load – Privacy Policy</h1>
-<p><strong>Last updated:</strong> 23 October 2026</p>
+<p><strong>Last updated:</strong> 25 October 2026</p>
 <p>This policy explains what information the Share the Load apps ("the app") for Android, iPhone and iPad handle, where it is kept and how you can delete it. The app is published by <strong>UpsCru</strong>. Contact: <strong>jameshowie592@gmail.com</strong>.</p>
 
 <h2>The short version</h2>
 <ul>
-  <li>There are no ads, no analytics and no account to create.</li>
+  <li>There is no account to create and no analytics.</li>
+  <li>The free version shows family-safe ads from Google AdMob, which are not personalised. Families with the subscription see no ads.</li>
+  <li>The family subscription is bought through Google Play or the App Store. We never see your payment details.</li>
   <li>Everything you add is stored on your device.</li>
   <li>If you turn on <em>Sync between devices</em>, your family's planner data is also stored in our cloud database (Google Firebase) so your family's devices can share it. It is not sold or shared with anyone else.</li>
   <li>You can delete your family's cloud data at any time from inside the app.</li>
@@ -38,24 +40,34 @@
 <p>To stop anyone other than the genuine app using our cloud database, each sync request also carries a check that the app is genuine (Firebase App Check): Google Play Integrity on Android and Apple's App Attest on iPhone and iPad. These are used only to confirm the app and device are genuine; see <a href="https://developer.android.com/google/play/integrity/terms">Google's Play Integrity data safety information</a> and <a href="https://developer.apple.com/documentation/devicecheck">Apple's App Attest documentation</a>.</p>
 <p>Data is sent over encrypted connections. Each family's data is kept separately, identified by a random family code; only devices that have joined with that code can read or change it, and no family can see another family's data. Google acts as our service provider for this storage under its <a href="https://firebase.google.com/support/privacy">Firebase privacy terms</a>.</p>
 
+<h2>The family subscription</h2>
+<p>Syncing between devices needs the family subscription. It is bought through Google Play or the Apple App Store, which handle the payment; we never receive your card or payment details. We use RevenueCat as our service provider to check subscriptions with the stores. The purchase is recorded against the family's random family ID (not your name or email), so one subscription covers every device in the family. We and RevenueCat keep the subscription's product, purchase and expiry dates and the store's transaction reference, and our cloud database keeps whether the family's subscription is active and when it ends. See <a href="https://www.revenuecat.com/privacy">RevenueCat's privacy policy</a>.</p>
+<p>If we give a family free access, we record that against the family ID they send us.</p>
+
+<h2>Ads in the free version</h2>
+<p>Without the subscription, the app shows ads from Google AdMob: a banner, and at most once an hour a full-screen ad. Because children use the family's devices, we ask Google for family-safe ads only (rated G) and turn off personalised ads, so ads are not based on anyone's interests or activity in other apps, and the app does not ask to track you across apps.</p>
+<p>To show and measure ads and prevent fraud, Google's ads software on the device collects the device's advertising ID (or, on iPhone and iPad, an identifier for this app), its IP address (from which a rough location can be worked out), information about the device, and how ads are viewed and tapped. Google uses this as described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>. In the UK and EU, the app asks for your consent first using Google's consent form, and you can change your choice at any time in Settings → Subscription → Ad privacy choices. None of your family's planner data is shared with Google's ads software.</p>
+
 <h2>Phones (Share the Load Companion)</h2>
 <p>A parent can link a family member's phone from a tablet and choose what it can see and change. The phone app signs in anonymously in the same way, stores its own anonymous ID, model name, the family member it belongs to and its permissions alongside the family's data, and reads only the parts of the family's data it has been allowed to see. It never receives the family code, parental controls or the parent PIN. Reminders and notifications are worked out on the phone itself; nothing extra is sent to us to produce them. Unlinking the phone (from the tablet or the phone) removes its registration and the family's data from it.</p>
+<p><strong>Sharing a phone's calendars.</strong> If the person chooses to, the Companion app can share events from calendars on their phone (for example a work or personal calendar) so the family's tablets show them. Nothing is shared until they pick a calendar, and for each one they choose <em>Busy only</em> (just the date and times) or <em>Full details</em> (also the title and location). Events from about a week ago to two months ahead are stored with the family's data, marked as that person's, and kept up to date as the calendar changes. Other phones can't see them. Turning a calendar off, or unlinking the phone, removes its shared events from the family's data.</p>
 
 <h2>Information the app does not upload</h2>
 <ul>
   <li><strong>Photo frame photos.</strong> Photos you add to the photo frame, pick from Google Photos, or show from an album (an album in the Photos app on iPhone or iPad, or a folder on an Android device) stay on that device only. Photos you attach to a calendar event are the exception: they're synced with the event, as described above.</li>
   <li><strong>Shared album links.</strong> If you add a Google Photos or iCloud shared album link to the photo frame, the device downloads that album's photos directly from Google or Apple, as a web browser would. The link and the photos stay on that device; nothing is sent to us.</li>
-  <li><strong>Calendars on the device.</strong> If you allow the app to read calendars (for example an iCloud, Google or Outlook account already on the device), those events are shown on that device and are never uploaded or changed. When you say who one of them is for, only that choice and a reference to the event (its calendar ID, not its title or details) is synced, so your other devices show it the same way.</li>
+  <li><strong>Calendars on the tablet.</strong> If you allow the app to read calendars (for example an iCloud, Google or Outlook account already on the device), those events are shown on that device and are never uploaded or changed. When you say who one of them is for, only that choice and a reference to the event (its calendar ID, not its title or details) is synced, so your other devices show it the same way.</li>
   <li><strong>Adding family events to your calendar.</strong> If a parent chooses a calendar under <em>Your calendars</em>, the app copies the family's own events into it on that device and keeps them up to date; your calendar provider (for example Google) then syncs them as it does any event. The app only changes the events it added.</li>
   <li><strong>Google Photos.</strong> When you use "Pick from Google Photos", Google asks for permission to view only the photos you choose. The app downloads just those photos to the device.</li>
 </ul>
 
 <h2>Children</h2>
-<p>The app is designed to be set up and managed by parents or carers for their household. Children may use the shared tablet or their own linked phone to see their chores and rewards. The app does not ask children for personal information, has no ads, and has no chat or social features. Parents control what is entered and can delete it at any time.</p>
+<p>The app is designed to be set up and managed by parents or carers for their household. Children may use the shared tablet or their own linked phone to see their chores and rewards. The app does not ask children for personal information and has no chat or social features. Any ads in the free version are family-safe and not personalised, and buying the subscription needs a parent to confirm with the store (and the parent PIN, if one is set). Parents control what is entered and can delete it at any time.</p>
 
 <h2>Deleting your data</h2>
 <ul>
   <li><strong>Cloud data:</strong> open <em>Settings → Sync between devices</em> and tap <em>Delete the family's cloud data</em>. This permanently removes everything the family has stored in the cloud and unlinks every device.</li>
+  <li><strong>Ads:</strong> you can reset or delete your device's advertising ID in Android's settings (Privacy → Ads), and change your ad consent in Settings → Subscription → Ad privacy choices.</li>
   <li><strong>On a device:</strong> use <em>Settings → Data</em> to clear the data, clear the app's storage in Android settings, or uninstall the app.</li>
   <li>You can also email <strong>jameshowie592@gmail.com</strong> with your family code and we will delete the family's cloud data within 30 days.</li>
 </ul>
